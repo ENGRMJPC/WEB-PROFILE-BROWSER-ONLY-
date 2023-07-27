@@ -1,0 +1,313 @@
+.gradient-background {
+    background: linear-gradient(300deg, #8585ff, #6ebeff, #EEEEEE);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    height: 100vh;
+    background-image: url(./assets/images/white-with-low-poly-network-connection_1017-29753.jpg);
+    border-radius: 1rem;
+}
+
+.header {
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2%;
+    padding-top: 1rem;
+}
+
+.header-logo {
+    cursor: pointer;
+}
+
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
+
+.nav-items .btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-items .btn:hover {
+    background-color:#068FFF;
+    color: #EEEEEE;
+    border: 0px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
+    padding: 5% 0%;
+}
+
+.center-text {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    width: 500px;
+}
+
+.name {
+    color: #068FFF ;
+    font-weight: bolder;
+}
+
+.center-text p {
+    text-transform:none;
+}
+
+.adapt {
+    font-weight: bolder;
+}
+
+.resources {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.cv {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.resources .btn:hover{
+    background-color: #068FFF;
+    color: #EEEEEE;
+    border: 0px;
+}
+
+.profile-img {
+    height: 350px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+
+.formal-education {
+    width: 40%;
+    height: 100vh;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 0.5rem;
+}
+
+.formal-education h2 {
+    text-align: left;
+    font-size: x-large;
+    padding-left: 2rem;
+}
+
+.formal-education .listed {
+    list-style: none;
+}
+
+
+.formal-education .listed h4 {
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.course {
+    display: flex;
+    gap: 1rem;
+    padding-top: 5px;
+}
+
+.course button {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.informal-education {
+    width: 40%;
+    height: 100vh;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 0.5rem;
+}
+
+.informal-education h2 {
+    text-align: left;
+    font-size: x-large;
+    padding-left: 2rem;
+}
+
+.informal-education .listed {
+    list-style: none;
+}
+
+.informal-education .listed h4 {
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.btn:hover {
+    background-color: #068FFF;
+    color: #EEEEEE;
+    border: 0;
+    border-radius: 10px;
+}
+
+.work-experience h2 {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1rem;
+    padding-left: 6rem;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.company {
+    width: 83%;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3rem;
+}
+
+.skills {
+    margin-top: 1rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+
+.skills h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills-list {
+    width: 83%;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 3.5rem;
+}
+
+.organizations {
+    margin-top: 1rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+
+.organizations h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.organizations-list {
+    width: 83%;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 3.5rem;
+}
+
+.seminars {
+    margin-top: 1rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+
+.seminars h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.seminars-list {
+    width: 83%;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 3.5rem;
+}
+
+
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    background-image: url(./assets/images/white-with-low-poly-network-connection_1017-29753.jpg);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.footer-logo {
+    height: 100px;
+}
+
+.footer-contact {
+    font-family: 'Poppins', sans-serif;
+    padding-right: 2rem;
+}
